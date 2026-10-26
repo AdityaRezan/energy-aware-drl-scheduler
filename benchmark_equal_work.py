@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -56,6 +57,9 @@ def main():
     parser.add_argument("--seed", type=int, default=2026)
     parser.add_argument("--json", default="results/equal_work_benchmark.json")
     args = parser.parse_args()
+
+    if not os.path.exists(args.binary):
+        subprocess.run(["make"], check=True)
 
     rng = np.random.default_rng(args.seed)
     records = []
