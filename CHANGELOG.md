@@ -1,5 +1,25 @@
 # Changelog
 
+## CI repair and division of work - 26 October 2026
+
+### Fixed
+
+- GitHub Actions `build-and-test` failed at the equal-work benchmark step with
+  `ModuleNotFoundError: No module named 'numpy'`. The workflow now uses
+  `actions/setup-python@v5` and installs NumPy before running the benchmark.
+  Build, native C tests, policy comparison and Python syntax steps were already
+  passing.
+
+### Added
+
+- `CONTRIBUTION.md` and `docs/Division_of_Work.pdf` / `.docx`: page-by-page
+  allocation of the 38-page review across the five members, code ownership,
+  reference-verification split, peer-review pairs, 20-minute presentation slots
+  and a signature declaration.
+- Section 28.5, "Detailed division of work", added to the final review (PDF and
+  editable DOCX) so the paper matches the standalone allocation.
+- `TEAM.md` now links to the detailed allocation; `README.md` lists the new files.
+
 ## Final submission revision - 26 October 2026
 
 ### Fixed

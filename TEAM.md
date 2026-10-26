@@ -27,6 +27,28 @@ record matches what actually happened.
 | Evaluation, benchmarking and statistics | Atharva Sivaraman | `benchmark_equal_work.py`, `results/`, equal-work accounting |
 | Literature review and documentation | Yash Jain | `docs/`, `README.md`, claim boundaries and references |
 
+## Detailed division of work
+
+The page-by-page allocation of the 38-page literature review, code ownership, peer-review
+pairs, presentation slots and the sign-off declaration are recorded in
+[CONTRIBUTION.md](CONTRIBUTION.md) and in the printable
+[Division of Work](docs/Division_of_Work.pdf) document (editable
+[DOCX](docs/Division_of_Work.docx)). Section 28 of the review summarises the functional
+areas; Section 28.5 lists the part-to-member mapping.
+
+| Part | Pages | Author |
+|---|---|---|
+| I | 1-8 | Aditya Rajeshwar Karn |
+| II | 9-15 | Yuvraj Singh |
+| III | 16-22 | Aditya Singh |
+| IV | 23-29 | Atharva Sivaraman |
+| V | 30-35 | Yash Jain |
+| VI | 36-38 | Shared, five annotated references verified per member |
+
+Each member should confirm their row and sign the declaration before submission. If the
+actual division differed, edit `CONTRIBUTION.md`, `TEAM.md` and Section 28.2 of the
+review together so all three records agree.
+
 ## Governance notes
 
 - All five members have read and approved the final literature review.

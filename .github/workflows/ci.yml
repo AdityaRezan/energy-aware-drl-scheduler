@@ -11,13 +11,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "numpy>=1.24"
+
       - name: Build
         run: make
+
       - name: Native C test suite
         run: make test
+
       - name: Policy comparison
         run: make benchmark
+
       - name: Equal-work benchmark
         run: python benchmark_equal_work.py --profiles 10 --steps 200
+
       - name: Python syntax
         run: make python-check

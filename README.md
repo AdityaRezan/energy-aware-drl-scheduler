@@ -100,7 +100,9 @@ Arguments are `peak_watts initial_queue steps power_cap_percent`.
 | `test_policy_parity.py` | Python-C action agreement over 1,000 observations |
 | `benchmark_equal_work.py` | Equal-work re-measurement harness |
 | `app.py` | Streamlit dashboard |
-| `docs/` | Final literature review (PDF and editable DOCX) |
+| `TEAM.md` | Team roster, functional contribution matrix and part allocation |
+| `CONTRIBUTION.md` | Detailed division of work, peer review, presentation slots, declaration |
+| `docs/` | Final 38-page review (PDF + DOCX) and the Division of Work document (PDF + DOCX) |
 | `results/` | Machine-readable benchmark output |
 
 ## Evaluation method and current results
