@@ -1,0 +1,479 @@
+{
+  "summary": {
+    "profiles": 20,
+    "steps_per_profile": 200,
+    "seed": 2026,
+    "raw_energy_improvement_pct": {
+      "mean": 86.702,
+      "sd": 0.06186572897051209,
+      "ci95": [
+        86.675,
+        86.729
+      ],
+      "n": 20
+    },
+    "normalized_energy_improvement_pct": {
+      "mean": 86.69766921915453,
+      "sd": 0.06190618325336428,
+      "ci95": [
+        86.67065522509375,
+        86.72467757297585
+      ],
+      "n": 20
+    },
+    "drl_to_baseline_served_work_ratio": {
+      "mean": 0.9996736035943294,
+      "sd": 1.533703260549169e-06,
+      "ci95": [
+        0.9996729679549461,
+        0.9996742722726377
+      ],
+      "n": 20
+    },
+    "total_dropped_work_units": 0.0,
+    "profiles_with_backlog_clipping_warning": 0,
+    "interpretation": "Energy figures are simulated. Compare normalized_energy_improvement_pct against raw_energy_improvement_pct: a large gap indicates that the raw figure is an artefact of unequal served work rather than genuine efficiency."
+  },
+  "runs": [
+    {
+      "perf_energy": 13000.0,
+      "drl_energy": 1734.2,
+      "perf": {
+        "served": 52.201,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 249.0365
+      },
+      "drl": {
+        "served": 52.184,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 33.2323
+      },
+      "warnings": 0,
+      "tdp": 65.0,
+      "queue": 0.626,
+      "cap": 60
+    },
+    {
+      "perf_energy": 3000.0,
+      "drl_energy": 398.4,
+      "perf": {
+        "served": 51.958,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 57.7387
+      },
+      "drl": {
+        "served": 51.941,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 7.6702
+      },
+      "warnings": 0,
+      "tdp": 15.0,
+      "queue": 0.383,
+      "cap": 70
+    },
+    {
+      "perf_energy": 9000.0,
+      "drl_energy": 1200.6,
+      "perf": {
+        "served": 52.336,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 171.9651
+      },
+      "drl": {
+        "served": 52.319,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 22.9476
+      },
+      "warnings": 0,
+      "tdp": 45.0,
+      "queue": 0.761,
+      "cap": 70
+    },
+    {
+      "perf_energy": 9000.0,
+      "drl_energy": 1189.8,
+      "perf": {
+        "served": 51.785,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 173.7949
+      },
+      "drl": {
+        "served": 51.768,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 22.9832
+      },
+      "warnings": 0,
+      "tdp": 45.0,
+      "queue": 0.21,
+      "cap": 100
+    },
+    {
+      "perf_energy": 13000.0,
+      "drl_energy": 1718.6,
+      "perf": {
+        "served": 51.893,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 250.5146
+      },
+      "drl": {
+        "served": 51.876,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 33.1288
+      },
+      "warnings": 0,
+      "tdp": 65.0,
+      "queue": 0.318,
+      "cap": 80
+    },
+    {
+      "perf_energy": 1000.0,
+      "drl_energy": 134.0,
+      "perf": {
+        "served": 52.453,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 19.0646
+      },
+      "drl": {
+        "served": 52.436,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 2.5555
+      },
+      "warnings": 0,
+      "tdp": 5.0,
+      "queue": 0.878,
+      "cap": 100
+    },
+    {
+      "perf_energy": 3000.0,
+      "drl_energy": 400.2,
+      "perf": {
+        "served": 52.302,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 57.359
+      },
+      "drl": {
+        "served": 52.285,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 7.6542
+      },
+      "warnings": 0,
+      "tdp": 15.0,
+      "queue": 0.727,
+      "cap": 80
+    },
+    {
+      "perf_energy": 1000.0,
+      "drl_energy": 133.4,
+      "perf": {
+        "served": 52.368,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 19.0956
+      },
+      "drl": {
+        "served": 52.351,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 2.5482
+      },
+      "warnings": 0,
+      "tdp": 5.0,
+      "queue": 0.793,
+      "cap": 80
+    },
+    {
+      "perf_energy": 9000.0,
+      "drl_energy": 1195.2,
+      "perf": {
+        "served": 51.93,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 173.3096
+      },
+      "drl": {
+        "served": 51.913,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 23.023
+      },
+      "warnings": 0,
+      "tdp": 45.0,
+      "queue": 0.355,
+      "cap": 70
+    },
+    {
+      "perf_energy": 1000.0,
+      "drl_energy": 132.2,
+      "perf": {
+        "served": 51.829,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 19.2941
+      },
+      "drl": {
+        "served": 51.812,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 2.5515
+      },
+      "warnings": 0,
+      "tdp": 5.0,
+      "queue": 0.254,
+      "cap": 60
+    },
+    {
+      "perf_energy": 13000.0,
+      "drl_energy": 1726.4,
+      "perf": {
+        "served": 52.013,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 249.9366
+      },
+      "drl": {
+        "served": 51.996,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 33.2024
+      },
+      "warnings": 0,
+      "tdp": 65.0,
+      "queue": 0.438,
+      "cap": 80
+    },
+    {
+      "perf_energy": 3000.0,
+      "drl_energy": 396.6,
+      "perf": {
+        "served": 51.637,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 58.0977
+      },
+      "drl": {
+        "served": 51.62,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 7.683
+      },
+      "warnings": 0,
+      "tdp": 15.0,
+      "queue": 0.062,
+      "cap": 80
+    },
+    {
+      "perf_energy": 5000.0,
+      "drl_energy": 664.0,
+      "perf": {
+        "served": 51.954,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 96.2386
+      },
+      "drl": {
+        "served": 51.937,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 12.7847
+      },
+      "warnings": 0,
+      "tdp": 25.0,
+      "queue": 0.379,
+      "cap": 70
+    },
+    {
+      "perf_energy": 1000.0,
+      "drl_energy": 132.8,
+      "perf": {
+        "served": 52.16,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 19.1717
+      },
+      "drl": {
+        "served": 52.143,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 2.5468
+      },
+      "warnings": 0,
+      "tdp": 5.0,
+      "queue": 0.585,
+      "cap": 60
+    },
+    {
+      "perf_energy": 3000.0,
+      "drl_energy": 396.6,
+      "perf": {
+        "served": 51.895,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 57.8088
+      },
+      "drl": {
+        "served": 51.878,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 7.6448
+      },
+      "warnings": 0,
+      "tdp": 15.0,
+      "queue": 0.32,
+      "cap": 70
+    },
+    {
+      "perf_energy": 13000.0,
+      "drl_energy": 1742.0,
+      "perf": {
+        "served": 52.412,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 248.0339
+      },
+      "drl": {
+        "served": 52.395,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 33.2473
+      },
+      "warnings": 0,
+      "tdp": 65.0,
+      "queue": 0.837,
+      "cap": 60
+    },
+    {
+      "perf_energy": 13000.0,
+      "drl_energy": 1734.2,
+      "perf": {
+        "served": 52.171,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 249.1797
+      },
+      "drl": {
+        "served": 52.154,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 33.2514
+      },
+      "warnings": 0,
+      "tdp": 65.0,
+      "queue": 0.596,
+      "cap": 90
+    },
+    {
+      "perf_energy": 3000.0,
+      "drl_energy": 402.0,
+      "perf": {
+        "served": 52.477,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 57.1677
+      },
+      "drl": {
+        "served": 52.46,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 7.663
+      },
+      "warnings": 0,
+      "tdp": 15.0,
+      "queue": 0.902,
+      "cap": 70
+    },
+    {
+      "perf_energy": 9000.0,
+      "drl_energy": 1195.2,
+      "perf": {
+        "served": 52.014,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 173.0297
+      },
+      "drl": {
+        "served": 51.997,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 22.9858
+      },
+      "warnings": 0,
+      "tdp": 45.0,
+      "queue": 0.439,
+      "cap": 80
+    },
+    {
+      "perf_energy": 5000.0,
+      "drl_energy": 664.0,
+      "perf": {
+        "served": 51.912,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 96.3165
+      },
+      "drl": {
+        "served": 51.895,
+        "arrived": 51.575,
+        "dropped": 0.0,
+        "clipped": 0,
+        "energy_per_work": 12.795
+      },
+      "warnings": 0,
+      "tdp": 25.0,
+      "queue": 0.337,
+      "cap": 100
+    }
+  ]
+}

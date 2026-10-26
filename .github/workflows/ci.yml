@@ -1,0 +1,23 @@
+name: build-and-test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  native:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: make
+      - name: Native C test suite
+        run: make test
+      - name: Policy comparison
+        run: make benchmark
+      - name: Equal-work benchmark
+        run: python benchmark_equal_work.py --profiles 10 --steps 200
+      - name: Python syntax
+        run: make python-check
